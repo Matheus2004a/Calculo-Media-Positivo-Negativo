@@ -5,3 +5,6 @@ Também é possível visualizar o percentual dos números mais digitados, podend
 #
 **Para ficar mais esclarecedor de como funciona o sistema, siga o exemplo a seguir:**<br>
 - Em um total de 20 números para o usuário digitar, caso ele digite 10 números negativos e o restante positivos, haverá 50% números negativos e 50% positivos. Simples assim 😄🧐.
+
+# Resultado
+<img src="Calculo-Media.gif">
