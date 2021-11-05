@@ -4,8 +4,8 @@
     $positivesValues = 0;
     $negativesValues = 0;
     
-    for ($numEsc = 0; $numEsc < count($numsEsc); $numEsc++) { 
-        if($numsEsc[$numEsc] >= 0){
+    for ($i = 0; $i < count($numsEsc); $i++) { 
+        if($numsEsc[$i] >= 0){
             $positivesValues += 1;
         } 
         else{
@@ -13,7 +13,7 @@
         }
     }
     
-    $media = $numsEsc[$numEsc] / 10;
+    $media = $numsEsc[$i] / $numsEsc[$i];
     echo "A média dos valores é: $media <br>";
     echo "A quantidade de valores positivos são: $positivesValues <br>";
     echo "A quantidade de valores negativos são: $negativesValues <br>";

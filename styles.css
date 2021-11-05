@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.form-calcule{
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.form-calcule h2{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
