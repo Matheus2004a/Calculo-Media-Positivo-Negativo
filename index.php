@@ -54,11 +54,6 @@
             <label for="formGroupExampleInput" class="form-label">Digite o 10º valor:</label>
             <input type="number" name="num10" class="form-control" id="formGroupExampleInput">
         </div>
-        <span>
-            <button type="submit" name="btn-submit" class="btn btn-primary">Enviar</button>
-            <button type="reset" class="btn btn-danger">Limpar</button>
-        </span>
-
         <?php
         if (isset($_POST['btn-submit'])) {
             $numsEsc = array($_POST['num1'], $_POST['num2'], $_POST['num3'], $_POST['num4'], $_POST['num5'], $_POST['num6'], $_POST['num7'], $_POST['num8'], $_POST['num9'], $_POST['num10']);
@@ -77,7 +72,7 @@
             }
     
             $media = $soma / count($numsEsc);
-            echo "A média dos valores é: $media <br>";
+            echo "<font color='red' style='font-weight:500;'>A média dos valores é: $media <br>";
             echo "A quantidade de valores positivos são: $positivesValues <br>";
             echo "A quantidade de valores negativos são: $negativesValues <br>";
     
@@ -87,6 +82,11 @@
             echo "O percentual de valores negativos é: $negativesPercentual%";
         }
         ?>
+        <span>
+            <button type="submit" name="btn-submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-danger">Limpar</button>
+        </span>
+
     </form>
 </body>
 
